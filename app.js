@@ -1,0 +1,61 @@
+{
+    "name": "Purple",
+    "description": "",
+    "logo": "https://i.imgur.com/EDf862b.jpeg",
+    "keywords": [],
+    "repository": "https://github.com/Rygent/ElviaBot",
+    "website": "",
+    "success_url": "https://discord.gg/nW6x9EN",
+    "stack": "container",
+    "env": {
+      "DISCORD_TOKEN": {
+        "description": "Input here your bot token.",
+        "required": true
+      },
+      "CLIENT_PREFIX": {
+        "description": "Input here the prefix for your bot.",
+        "value": "!",
+        "require": true
+      },
+      "CLIENT_OWNERS": {
+        "description": "Input here your User ID as the bot owner.",
+        "required": true
+      },
+      "MONGO_URI": {
+        "description": "Input here your MongoDB URI.",
+        "required": true
+      },
+      "TIMEZONE": {
+        "description": "Input here your timezone.",
+        "required": false
+      },
+      "INVITE_LINK": {
+        "description": "Input here the guild invite link.",
+        "required": true
+      },
+      "IMDB_API_KEY": {
+        "description": "Input here the imdb api key.",
+        "required": true
+      },
+      "OPEN_WEATHER_API_KEY": {
+        "description": "Input here the open weather map api key.",
+        "required": true
+      },
+      "SPOTIFY_ID": {
+        "description": "Input here the spotify client id.",
+        "required": true
+      },
+      "SPOTIFY_SECRET": {
+        "description": "Input here the spotify client secret.",
+        "required": true
+      },
+      "YOUTUBE_API_KEY": {
+        "description": "Input here the youtube api key.",
+        "required": true
+      },
+      "GUILD_LOG_WEBHOOK_URL": {
+        "description": "Input here the guild log webhook url.",
+        "require": false
+      }
+    }
+}
